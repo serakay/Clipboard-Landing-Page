@@ -1,0 +1,383 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  background-color: white;
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+
+h1 {
+  font-size: 2.7rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2.1rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5vh;
+}
+
+button {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 28px;
+  border: none;
+  padding:14px 39px;
+}
+
+.container {
+  margin: auto;
+  width: 1440px;
+  text-align: center;
+  padding-top: 10vh;
+  overflow: hidden;
+}
+
+.intro, .snippets, .clipboard, .mac-ios {
+  width: 750px;
+  margin: auto;
+}
+
+.ios-button {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: inset -1px -2px 0px #2F9681, 0 0 5px #2F9681;
+  margin-right: 10px;
+}
+
+.ios-button:hover {
+  background-color: #5DCCBB;
+}
+
+.mac-button {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: inset -1px -2px 0px #5161DA, 0 0 5px #5161DA;
+  margin-left: 10px;
+}
+
+.mac-button:hover {
+  background-color: #8896FF;
+}
+
+.snippets {
+  margin-top: 150px;
+}
+
+.computer-search {
+  margin-top: 100px;
+  height: 600px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.search-sync-history {
+  padding: 0 175px 0 100px;
+}
+
+.img-computer {
+  background-image: url("images/image-computer.png");
+  background-repeat: no-repeat;
+  background-position: -30px 0;
+}
+
+.img-computer img {
+  display: none;
+}
+
+.clipboard {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.lists-text-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lists-text-preview img {
+  width: 12%;
+}
+
+.blacklists, .plain-text, .preview {
+  padding: 50px 30px;
+}
+
+.tech-brands {
+  text-align: left;
+}
+
+.img {
+  width: 11%;
+  margin-left: 130px;
+}
+
+.google {
+  margin-left: 50px;
+}
+
+.vector {
+  margin-right: 0;
+}
+
+.mac-ios {
+  margin: 150px auto;
+}
+
+/* footer-attribution */
+
+footer {
+  background-color: #F5F6F8;
+  color: black;
+  width: 100%;
+  overflow: hidden;
+}
+
+br {
+  display: block;
+  line-height: 50px;
+}
+
+.footer-container {
+  margin: auto;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.footer-logo {
+  padding: 50px 0 0 70px;
+}
+
+.footer-logo img {
+  width: 35%;
+}
+
+.footer-nav {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-nav p {
+  margin: 20px 0
+}
+
+.social-media {
+  text-align: right;
+  padding-top: 80px;
+}
+
+.social-media img {
+  width: 15%;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 1200px) {
+
+  body {
+    background-image: url("images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-size: 2.18rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 0;
+  }
+
+  button {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 28px;
+    border: none;
+    padding:14px 100px;
+  }
+
+  .ios-button {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: inset -1px -2px 0px #2F9681, 0 0 5px #2F9681;
+    margin:auto;
+    margin-bottom: 30px;
+  }
+
+  .mac-button {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: inset -1px -2px 0px #5161DA, 0 0 5px #5161DA;
+    margin:auto;
+  }
+
+  .container {
+    margin: auto;
+    width: 375px;
+  }
+
+  .intro, .snippets, .clipboard, .mac-ios {
+    width: 370px;
+    margin: auto;
+  }
+
+  .snippets {
+    margin-top: 170px;
+  }
+
+  .computer-search {
+    margin-top: 50px;
+    height: 600px;
+    text-align: left;
+    display: block;
+  }
+
+  .search-sync-history {
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    padding: 0;
+  }
+
+  .img-computer {
+    background-image: url("");
+    background-repeat: no-repeat;
+  }
+
+  .img-computer img {
+    display: block;
+    width: 350px;
+    margin: auto;
+  }
+
+  .clipboard {
+    margin-top: 350px;
+    margin-bottom: 50px;
+  }
+
+  .devices-img img {
+    width: 350px;
+  }
+
+  .lists-text-preview {
+    display: block;
+  }
+
+  .lists-text-preview img {
+    width: 50px;
+  }
+
+  .blacklists, .plain-text, .preview {
+    padding: 20px 20px;
+  }
+
+  .tech-brands {
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .img {
+    width: 200px;
+  }
+
+  .google, .ibm, .microsoft, .hp, .vector {
+    margin: 50px auto;
+  }
+
+  .mac-ios {
+    margin: 200px auto;
+  }
+
+/* footer */
+
+.footer-container {
+  margin: auto;
+  max-width: 375px;
+  display: block;
+}
+
+.footer-logo {
+  padding: 50px 0 10px 0;
+}
+
+.footer-logo {
+  margin: auto;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 28%;
+}
+
+.footer-nav {
+  padding-top: 10px;
+  text-align: center;
+  display: block;
+}
+
+.footer-nav p {
+  margin: 20px 0
+}
+
+.social-media {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.social-media img {
+  width: 35px;
+  margin: auto 20px;
+}
+
+}
